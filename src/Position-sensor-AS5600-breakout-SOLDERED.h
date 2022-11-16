@@ -9,22 +9,22 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __AS5600__
+#define __AS5600__
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.hpp"
 
-class Sensor : public EasyC
+class AS5600: public EasyC
 {
   public:
-    Sensor(int _pin);
+    AS5600();
+    bool begin();
 
   protected:
     void initializeNative();
 
   private:
-    int pin;
 };
 
 #endif
