@@ -15,7 +15,7 @@
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.hpp"
 
-class AS5600: public EasyC
+class AS5600 : public EasyC
 {
   public:
     AS5600();

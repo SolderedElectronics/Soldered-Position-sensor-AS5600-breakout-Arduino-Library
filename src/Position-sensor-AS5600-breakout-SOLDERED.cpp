@@ -14,6 +14,6 @@
 
 bool AS5600::begin()
 {
-    
+
     return true;
 }
