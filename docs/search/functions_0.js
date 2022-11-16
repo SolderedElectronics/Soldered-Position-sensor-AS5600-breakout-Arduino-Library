@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
+  ['as5600_0',['AS5600',['../class_a_s5600.html#a999a5e78dab7b106f03be1e9f584c84e',1,'AS5600']]]
 ];
