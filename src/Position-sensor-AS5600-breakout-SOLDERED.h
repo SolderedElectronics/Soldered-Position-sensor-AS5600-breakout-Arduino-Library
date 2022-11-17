@@ -17,9 +17,9 @@
 
 class PositionSensor : public AS5600
 {
-    public:
-    protected:
-    private:
+  public:
+  protected:
+  private:
 };
 
 #endif
