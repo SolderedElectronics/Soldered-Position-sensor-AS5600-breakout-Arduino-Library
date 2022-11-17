@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['position_2dsensor_2das5600_2dbreakout_2dsoldered_2ecpp_0',['Position-sensor-AS5600-breakout-SOLDERED.cpp',['../_position-sensor-_a_s5600-breakout-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['position_2dsensor_2das5600_2dbreakout_2dsoldered_2eh_1',['Position-sensor-AS5600-breakout-SOLDERED.h',['../_position-sensor-_a_s5600-breakout-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['magnettoostrong_0',['magnetTooStrong',['../class_a_s5600.html#a4da043e0b80dace7d5b8b1675e99eea9',1,'AS5600']]],
+  ['magnettooweak_1',['magnetTooWeak',['../class_a_s5600.html#ae539ed3f0cb18f7537923f9df4ee2c56',1,'AS5600']]]
 ];

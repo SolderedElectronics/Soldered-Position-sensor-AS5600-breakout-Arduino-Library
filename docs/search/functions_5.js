@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_1',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]]
+  ['magnettoostrong_0',['magnetTooStrong',['../class_a_s5600.html#a4da043e0b80dace7d5b8b1675e99eea9',1,'AS5600']]],
+  ['magnettooweak_1',['magnetTooWeak',['../class_a_s5600.html#ae539ed3f0cb18f7537923f9df4ee2c56',1,'AS5600']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)'],['../class_a_s5600.html#a75d44b2bed4cc8e4aa14eb7457f250f9',1,'AS5600::begin()']]]
+  ['begin_0',['begin',['../class_a_s5600.html#a2e19d26974da3b46c7164cd7c4e27f80',1,'AS5600::begin(int dataPin, int clockPin, uint8_t directionPin=255)'],['../class_a_s5600.html#aacd23271e3fa4520e722b143c8be23bf',1,'AS5600::begin(uint8_t directionPin=255)']]]
 ];

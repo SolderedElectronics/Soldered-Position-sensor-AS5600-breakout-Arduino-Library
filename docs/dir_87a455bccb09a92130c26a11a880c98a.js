@@ -1,4 +1,5 @@
 var dir_87a455bccb09a92130c26a11a880c98a =
 [
-    [ "Generic-easyC", "dir_3db0dda00e9f66085ea9403aa7e09fb8.html", "dir_3db0dda00e9f66085ea9403aa7e09fb8" ]
+    [ "AS5600.cpp", "_a_s5600_8cpp.html", "_a_s5600_8cpp" ],
+    [ "AS5600.h", "_a_s5600_8h.html", "_a_s5600_8h" ]
 ];

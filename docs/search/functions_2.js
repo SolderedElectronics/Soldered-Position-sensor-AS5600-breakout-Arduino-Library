@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['detectmagnet_0',['detectMagnet',['../class_a_s5600.html#a69f2dc08eeca2309d671dfb5900943e0',1,'AS5600']]]
 ];
