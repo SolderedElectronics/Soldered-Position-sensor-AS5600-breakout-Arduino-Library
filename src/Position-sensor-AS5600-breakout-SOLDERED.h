@@ -1,30 +1,22 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.h
+ * @file        Position-sensor-AS5600-breakout-SOLDERED.h
  * @brief       Header file for sensor specific code.
  *
  *
- * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @copyright   GNU General Public License v3.0
+ * @authors     Robert Soric @ soldered.com
  ***************************************************/
 
 #ifndef __AS5600__
 #define __AS5600__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.hpp"
+#include "libs/AS5600.h"
 
-class AS5600: public EasyC
+class PositionSensor : public AS5600
 {
-  public:
-    AS5600();
-    bool begin();
-
-  protected:
-    void initializeNative();
-
-  private:
 };
 
 #endif
