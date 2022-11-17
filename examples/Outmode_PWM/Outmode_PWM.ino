@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Outmode_PWM.ino
- * @brief       Output a PWM signal from the AS5600. See more at solde.red/333003
+ * @brief       Output a PWM signal from the AS5600. See more at solde.red/333183
  *
  *
  *

@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Angular_Speed.ino
- * @brief       Read the angular speed of the magnet mesaured by AS5600. See more at solde.red/333003
+ * @brief       Read the angular speed of the magnet mesaured by AS5600. See more at solde.red/333183
  *
  *
  *

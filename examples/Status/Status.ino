@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Status.ino
- * @brief       Read ing the status registers of the AS5600. See more at solde.red/333003
+ * @brief       Read ing the status registers of the AS5600. See more at solde.red/333183
  *
  *
  *
