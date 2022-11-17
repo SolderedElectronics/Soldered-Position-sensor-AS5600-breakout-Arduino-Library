@@ -3,7 +3,7 @@
  **************************************************
  *
  * @file        Read_Magnitude.ino
- * @brief       Read the rotation position of the magnet mesaured by AS5600. See more at solde.red/333003
+ * @brief       Read the rotation position of the magnet mesaured by AS5600. See more at solde.red/333183
  *
  *
  *

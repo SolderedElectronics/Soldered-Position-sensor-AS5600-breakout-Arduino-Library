@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Outmode_Analog.ino
- * @brief       Output an analog value from the rotation sensor and measure it. See more at solde.red/333003
+ * @brief       Output an analog value from the rotation sensor and measure it. See more at solde.red/333183
  *
  *
  *

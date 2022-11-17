@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Offset.ino
- * @brief       Demonstration of how to apply offset to AS5600. See more at solde.red/333003
+ * @brief       Demonstration of how to apply offset to AS5600. See more at solde.red/333183
  *
  *
  *

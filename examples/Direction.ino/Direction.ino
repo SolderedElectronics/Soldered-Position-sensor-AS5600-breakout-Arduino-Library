@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Direction.ino
- * @brief       Change the rotation direction of AS5600. See more at solde.red/333003
+ * @brief       Change the rotation direction of AS5600. See more at solde.red/333183
  *
  *
  *
