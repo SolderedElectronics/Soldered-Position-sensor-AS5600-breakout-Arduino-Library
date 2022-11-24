@@ -13,7 +13,7 @@
 
 PositionSensor sensor; // Create sensor object
 
-// For this example connect the OUT pin on your AS5600 breakout board to A0 to measure the generated signal TODO
+// For this example connect the OUT pin on your AS5600 breakout board to A0 to measure the generated signal
 
 void setup()
 {

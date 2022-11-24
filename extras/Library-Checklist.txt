@@ -19,7 +19,7 @@
         - begin is begin() or begin(address)
     | (easyC class has all except constructor(pins...) which are stored in sensor class itself, excess functions should be commented out)
     | use native flag if native constructor is called
-❌ | Document library code using doxygen tags (set PROJECT_NAME, PROJECT_NUMBER and PROJECT_BRIEF)
+✅ | Document library code using doxygen tags (set PROJECT_NAME, PROJECT_NUMBER and PROJECT_BRIEF)
 ✅ | Write some basic examples and document them as in example Template, be sure to change @file tag to new example name too
     | Be sure to add lots of comments
     | In every example add link to the board page using format solde.red/[sku]
