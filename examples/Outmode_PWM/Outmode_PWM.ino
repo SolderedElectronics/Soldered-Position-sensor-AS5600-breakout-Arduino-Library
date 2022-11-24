@@ -14,9 +14,10 @@
 PositionSensor sensor; // Create sensor object
 
 // In this example, we will be reading the PWM output signal on the AS5600 breakout
-// Connect the OUT pin on the board to digital input 4 TODO
-// Make sure the pin on your Arduino compatible board supports reading PWM input
-byte PWM_PIN = 4;
+// Connect the OUT pin on the board to digital input 16
+// You may change the pin to suit your needs
+// Make sure the digital pin on your Arduino compatible board supports reading PWM input and is not used for SCL/SDA or something else
+byte PWM_PIN = 16;
 
 void setup()
 {
@@ -53,7 +54,7 @@ void loop()
 {
     Serial.print("Angle: ");
     Serial.println(sensor.readAngle()); // Measure and print the angle
-    Serial.print("AnalogRead (PWM): ");
+    Serial.print("PWM reading: ");
     Serial.println(pulseIn(PWM_PIN, HIGH)); // Print the measurement of the generated PWM signal
     delay(1000);                            // Wait before making the next measurement, so output isn't too fast
 }
