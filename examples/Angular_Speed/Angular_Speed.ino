@@ -15,13 +15,31 @@ PositionSensor sensor; // Create sensor object
 
 void setup()
 {
-  Serial.begin(115200); // Begin serial communication (for printing)
-  sensor.begin();       // Initialize the sensor
+    Serial.begin(115200); // Begin serial communication (for printing)
+
+    if (!sensor.begin()) // Initialize the sensor
+    {
+        Serial.print("AS5600 not found!");
+        while (true)
+        {
+            delay(1000);
+        }
+    }
+
+    Serial.print("AS5600 found!");
+
+    while (!sensor.detectMagnet()) // If a magnet is not detected, print message
+    {
+        Serial.println("Magnet not detected!");
+        delay(1000);
+    }
 }
 
 void loop()
 {
   Serial.print("\tω = ");
-  Serial.println(sensor.getAngularSpeed()); // Measure and print current angular speed
-  delay(250);
+  Serial.print(sensor.getAngularSpeed()); // Measure and print current angular speed
+  Serial.println("deg/s");
+  
+  delay(1000); // Wait before making the next measurement, so output isn't too fast
 }

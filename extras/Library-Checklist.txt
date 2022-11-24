@@ -25,7 +25,7 @@
     | In every example add link to the board page using format solde.red/[sku]
     | Get board sku here:
         - https://docs.google.com/spreadsheets/d/1OgNTXLb2BICWH0ZpkS87TvWyUalTrakakhnibQFRWnQ/edit?usp=sharing
-❌ | Fill in README.md
+✅ | Fill in README.md
     | Be sure to change
         [![Compile Sketches](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/[repo name]/actions/workflows/compile_test.yml)
         [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/[repo name]/actions/workflows/make_docs.yml)
@@ -46,8 +46,8 @@
 ✅ | Update @authors to your name in all source files (search and replace in vsc works fine)
 ✅ | Push to dev
     | Check if Github Actions made a push to main and if so make a release with version 1.0.0
-❌ | Set GitHub pages settings
+✅ | Set GitHub pages settings
     | Visit https://github.com/e-radionicacom/[repo name]/settings/pages
     | Change to gh-pages branch and /docs folder
-❌ | Check if docs are made correctly
+✅ | Check if docs are made correctly
 ❌ | PR to Arduino Library Manager if not done already
