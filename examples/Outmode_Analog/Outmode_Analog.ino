@@ -13,12 +13,28 @@
 
 PositionSensor sensor; // Create sensor object
 
-// For this sketch, connect the OUT pin on your AS5600 breakout board to A0 to measure the generated signal
+// For this example connect the OUT pin on your AS5600 breakout board to A0 to measure the generated signal TODO
 
 void setup()
 {
   Serial.begin(115200); // Begin serial communication (for printing)
-  sensor.begin();       // Initialize the sensor
+
+    if (!sensor.begin()) // Initialize the sensor
+    {
+        Serial.print("AS5600 not found!");
+        while (true)
+        {
+            delay(1000);
+        }
+    }
+
+    Serial.print("AS5600 found!");
+
+    while (!sensor.detectMagnet()) // If a magnet is not detected, print message
+    {
+        Serial.println("Magnet not detected!");
+        delay(1000);
+    }
 
   sensor.setOutputMode(AS5600_OUTMODE_ANALOG_90); // Sets the output mode to analog
                                                   // AS5600_OUTMODE_ANALOG_90 is a reduced output range (10% to 90%)
@@ -31,5 +47,5 @@ void loop()
   Serial.println(sensor.readAngle());             // Measure and print the angle
   Serial.print("AnalogRead: ");                     
   Serial.println(analogRead(A0));                 // Print the measurement of the generated signal
-  delay(250);                                     // Wait before making the next measurement, so output isn't too fast 
+  delay(1000);                                     // Wait before making the next measurement, so output isn't too fast 
 }

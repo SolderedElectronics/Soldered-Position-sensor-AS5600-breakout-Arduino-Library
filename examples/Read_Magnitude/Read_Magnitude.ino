@@ -16,14 +16,31 @@ PositionSensor sensor; // Create sensor object
 
 void setup()
 {
-  Serial.begin(115200); // Begin serial communication (for printing)
-  sensor.begin();       // Initialize the sensor
+    Serial.begin(115200); // Begin serial communication (for printing)
+
+    if (!sensor.begin()) // Initialize the sensor
+    {
+        Serial.print("AS5600 not found!");
+        while (true)
+        {
+            delay(1000);
+        }
+    }
+
+    Serial.print("AS5600 found!");
+
+    while (!sensor.detectMagnet()) // If a magnet is not detected, print message
+    {
+        Serial.println("Magnet not detected!");
+        delay(1000);
+    }
 }
 
 void loop()
 {
-  Serial.print("Magnitude: ");
-  Serial.println(sensor.readMagnitude()); // Read and print the current magnitude of the CORDIC
-                                          // Correlates with the strength of the magnetic field vector of the magnet
-  delay(250);                             
+    Serial.print("Magnitude: ");
+    Serial.print(sensor.readMagnitude() * 0.001); // Read and print the current magnitude of the CORDIC in milliteslas
+                                                  // Correlates with the strength of the magnetic field vector of the magnet
+    Serial.println(" mT");
+    delay(250);
 }
