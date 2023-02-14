@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "AS5600 breakout Library", "index.html", [
-    [ "Position sensor AS5600 Breakout Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "Position sensor AS5600 Breakout Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
