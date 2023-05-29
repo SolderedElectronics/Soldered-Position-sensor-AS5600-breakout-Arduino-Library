@@ -17,7 +17,24 @@ PositionSensor sensor; // Create sensor object
 // Connect the OUT pin on the board to digital input 16
 // You may change the pin to suit your needs
 // Make sure the digital pin on your Arduino compatible board supports reading PWM input and is not used for SCL/SDA or something else
-byte PWM_PIN = 16;
+
+const byte PWM_PIN = 16;
+
+/**
+ * Connecting diagram:
+ *
+ * AS5600                       Dasduino Core / Connect / ConnectPlus
+ * VCC------------------------->VCC
+ * GND------------------------->GND
+ * SCL------------------------->A5/IO5/IO22
+ * SDA------------------------->A4/IO4/IO21
+ * 
+ * Or, simply use an easyC cable!
+ * 
+ * AS5600                       Dasduino
+ * OUT------------------------->PWM_PIN (set by user)
+ * 
+ */
 
 void setup()
 {
@@ -47,7 +64,7 @@ void setup()
                                               // AS5600_PWM_460: 460 Hz
                                               // AS5600_PWM_920: 920 Hz
     
-    pinMode(PWM_PIN, INPUT);                  // Set the PWM input pin as an input                
+    pinMode(PWM_PIN, INPUT);                  // Set the PWM input pin as an input
 }
 
 void loop()
