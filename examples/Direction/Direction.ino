@@ -11,6 +11,19 @@
 
 #include "Position-sensor-AS5600-breakout-SOLDERED.h"
 
+/**
+ * Connecting diagram:
+ *
+ * AS5600                       Dasduino Core / Connect / ConnectPlus
+ * VCC------------------------->VCC
+ * GND------------------------->GND
+ * SCL------------------------->A5/IO5/IO22
+ * SDA------------------------->A4/IO4/IO21
+ * 
+ * Or, simply use an easyC cable!
+ * 
+ */
+
 PositionSensor sensor; // Create sensor object
 
 void setup()
